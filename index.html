@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:  "Amatic SC", sans-serif;
+        }
+        html{
+            scroll-behavior: smooth;
+            
+        }
+         nav{
+            height: 70px;
+            width: 100%;
+            background-color: burlywood;
+            backdrop-filter: blur(5px);
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top:0px;
+            z-index: 100;
+
+        }
+        
+        nav .nav-items{
+            position: absolute;
+            right: 20px;
+            
+        }
+        .nav-items a{
+            color: white;
+            text-decoration: none;
+            font-size: 35px;
+            padding: 15px 5px;
+            
+            
+        }
+        .nav-items:hover a{
+            filter: blur(2px);
+        }
+        .nav-items a:hover{
+            color: whitesmoke;
+            filter: blur(0px);
+        }
+        .r img{
+            height: 900px;
+            width: 100%;
+            background-color:white;
+            position: flex;
+            /* background-image: url(pizza.jpg); */
+            -webkit-background-clip: content-box;
+            top:500px;
+        }
+        
+
+        .HOME{
+            height: 100%;
+            width: 100%;
+
+        }
+        .Hh1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            position: relative;
+            top:70px;
+            align-items:center ;
+            justify-content: center;
+            
+            
+        }
+        .Himg{
+            height: 550px;
+            width: 100%;
+            position: relative;
+            top:100px;
+
+        }
+        .Himg img{
+            height: 200px;
+            width: 250px;
+            margin: 20px;
+            
+        }
+        .Himg img:hover{
+            height: 230px;
+            width: 230px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+            position: relative;
+            top: 100px;
+            
+
+        }
+        .ABOUT{
+            height: 100vh;
+            width: 100%;
+        }
+        .Ah1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            position: relative;
+            top:70px;
+        }
+        .container{
+            display: flex;
+        }
+        .Aimg{
+            height: 550px;
+            width: 100%;
+
+        }
+        .Aimg img{
+            height: 500px;
+            width: 700px;
+            margin: 20px;
+            position: relative;
+            top:100px;
+        }
+        .atxt{
+            padding-top: 100px;
+            font-size: 30px;
+        }
+      
+        .MENU{
+            height: 100vh;
+            width: 100%;
+        }
+        .Mh1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            position: relative;
+            top:70px;
+        
+        }
+        .Mimg{
+            height: 550px;
+            width: 100%;
+            position: relative;
+            top:100px;
+
+        }
+        .pname{
+            font-size: 30px;
+            
+        }
+        
+        .CON{
+            height: 100vh;
+            width: 100%;
+        }
+        .Ch1{
+            height: 100px;
+            width: 100%;
+            background-color:rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            position: relative;
+            top:70px;
+        }
+        .Cimg{
+            height: 550px;
+            width: 100%;
+            padding-top: 6%;
+            font-size: 40px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div>
+    <nav>
+        
+        <div class="nav-items">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#menu">MENU</a>
+            <a href="#contact us">CONTACT US</a>
+        </div>
+    </nav> 
+</div>   
+         
+    
+    
+
+     <!-- home starts -->
+     <div class="HOME" id="home">
+        <div class="Hh1">
+             <h1>HOME</h1>
+         </div>
+         <div class="r">
+            <!-- <div class="moveBox"> </div>  -->
+            <img src="pizza.jpg" alt="">
+      </div>
+     </div>
+      
+    <!-- home ends -->
+
+    <!-- about start -->
+    <div class="ABOUT" id="about">
+        <div class="Ah1">
+              <h1>ABOUT</h1>
+        </div>
+        <div class="container">
+        <div class="Aimg">
+             <img src="res.jpeg" alt="">
+             
+         </div>
+         <div class="atxt"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam labore eaque voluptas expedita sit alias? Vero necessitatibus ut ducimus reprehenderit nostrum sed unde at voluptas aperiam, itaque saepe dolores ipsa ea corporis adipisci a quos error, quidem velit laborum. Beatae recusandae maxime quia sed eveniet placeat eaque, iste architecto ratione fugit voluptatum at soluta. Ullam facilis repellat provident libero, quae fuga ut blanditiis. Odio quaerat necessitatibus quam perspiciatis alias, voluptate debitis odit dicta ut delectus porro iste accusantium. Veniam, facere.</p></div>
+        </div>
+     </div>
+     <!-- about end -->
+ 
+     <!-- menu start -->
+     <div class="MENU" id="menu">
+         <div class="Mh1">
+               <h1>MENU</h1>
+         </div>
+         <div class="Mimg">
+              <p class="pname"><b>Pineapple'o'clock</b></p>
+              <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p><br>
+              <p class="pname"><b>Meat Town</b> </p>
+              <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p><br>
+              <p class="pname"><b>Parma</b></p>
+              <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p><br>
+              <p class="pname"><b>Bruschetta</b></p>
+              <p>Bread with pesto, tomatoes, onion, garlic</p>
+          </div>
+      </div>
+      <!-- menu  end -->
+ 
+      <!-- cotact start -->
+     <div class="CON" id="contact us">
+         <div class="Ch1">
+               <h1>CONTACT US</h1>
+         </div>
+         <div class="Cimg">
+              <p><b>Find us at JAYNAGAR or call us at 05050515-122330</b></p>
+              <p><b>Opening Hours</b></p>
+              <p>Mon & Tue CLOSED
+
+                <p>Friday 10:00 - 12:00</p>
+              <p>Wednesday 10.00 - 24.00 </p>  
+            
+              <p>Thursday 10:00 - 24:00  </p>      
+              <p></p>Sunday Closed</p>
+
+               
+          </div>
+      </div>
+      <!-- contact end -->
+     
+
+    
+</body>
+</html
